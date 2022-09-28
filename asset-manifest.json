@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hotel-booking-app/static/css/main.40943a12.css",
+    "main.js": "/hotel-booking-app/static/js/main.acea6246.js",
+    "static/js/787.90bd1167.chunk.js": "/hotel-booking-app/static/js/787.90bd1167.chunk.js",
+    "static/media/airbnb-logo.png": "/hotel-booking-app/static/media/airbnb-logo.e4424517383d14a03a24.png",
+    "index.html": "/hotel-booking-app/index.html",
+    "main.40943a12.css.map": "/hotel-booking-app/static/css/main.40943a12.css.map",
+    "main.acea6246.js.map": "/hotel-booking-app/static/js/main.acea6246.js.map",
+    "787.90bd1167.chunk.js.map": "/hotel-booking-app/static/js/787.90bd1167.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40943a12.css",
+    "static/js/main.acea6246.js"
+  ]
+}
