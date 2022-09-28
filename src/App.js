@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import SignUp from "./components/sign-up";
+import { AuthContextProvider } from "./context/auth-context";
+import { Routes, Route } from "react-router-dom";
+import Booking from "./components/booking";
+import HotelList from "./components/hotel-list";
 
 function App() {
+  // const [isOpen, setIsOpen] = useState(false);
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthContextProvider>
+      <Routes>
+        <Route path='/' element={<SignUp 
+        // isOpen={isOpen} setIsOpen={setIsOpen}
+         />} />
+        <Route path='/booking' element={<Booking
+        //  isOpen={isOpen} setIsOpen={setIsOpen}
+          />} />
+        <Route path='/hotel-list' element={<HotelList
+        //  isOpen={isOpen} setIsOpen={setIsOpen}
+          />} />
+      </Routes>
+    </AuthContextProvider>
   );
 }
 
